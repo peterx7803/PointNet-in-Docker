@@ -16,8 +16,9 @@ docker build -t pointnet -f dockerfile .
 1. python train.py 
 2. open another terminal and type "docker exec -it pointnet bash", and run "tensorboard --logdir log"
 3. open web browser and visit "localhost:6006" to check training progress
+![image](https://github.com/peterx7803/PointNet-in-Docker/blob/master/fig/acc.png)
+![image](https://github.com/peterx7803/PointNet-in-Docker/blob/master/fig/graph.png)
 4. After finish training, type "python evaluate.py --visu"
-
 
 ### Train partial segmentation
 1. cd part_seg
