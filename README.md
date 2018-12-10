@@ -9,7 +9,7 @@ docker build -t pointnet -f dockerfile .
 
 ## How to run
 1. cd ~/ && git clone https://github.com/charlesq34/pointnet
-2. docker run --runtime=nvidia -it --name pointnet -p 6006:6006 -v [pointnet_repo_path_on_host]:[desired_path_in_container]
+2. docker run --runtime=nvidia -it --name pointnet -p 6006:6006 -v [pointnet_repo_path_on_host]:[desired_path_in_container] pointnet bash
 3. cd [desired_path_in_container]
 
 ### Train classifier
